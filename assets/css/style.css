@@ -12,6 +12,12 @@ body {
     color: #3a3a3a;
 }
 
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -51,10 +57,12 @@ body {
     clear:both;
     width:650px; 
     float: right;
-    margin-right: 60px;
+    margin-top: 30px;
+    margin-right: 0px;
 }
 
 .main-image {
     width: 300px;
+    margin-right: 20px;
 }
 
