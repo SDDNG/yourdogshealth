@@ -63,8 +63,10 @@ body {
 #home-page-text {
     margin-top: 30px;
     margin-left: 30px;
-    width:650px;
+    width:670px;
     float: left;
+    column-count: 2;
+    padding:5px;
 }
 
 .main-image {
