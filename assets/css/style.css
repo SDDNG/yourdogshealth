@@ -19,8 +19,14 @@ body {
 }
 
 #menu {
+    margin-top: 1rem;
     font-size: 110%;
     letter-spacing: 4px;
+
+    float: right;
+    background-color: #3a3a3a;
+    color:#C0C0C0;
+    padding-left: 50px;
 }
 
 #menu, #logo {
@@ -28,7 +34,7 @@ body {
 }
 
 #menu li {
-    float: right;
+    float: left;
     list-style: none;
     margin-right: 30px;
 }
@@ -39,7 +45,8 @@ body {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    color: #3a3a3a;
+    background-color:#C0C0C0;
 }
 
 .active {
@@ -67,6 +74,21 @@ body {
     float: left;
     column-count: 2;
     padding:5px;
+    line-height: 1.4;
+}
+
+#home-page-text a {
+    text-decoration: none;
+    color: #0000EE ;
+    font-weight: 575;
+}
+
+#home-page-text a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+#home-page-text a:visited {
+    color: #551A8B;
 }
 
 .main-image {
