@@ -39,3 +39,22 @@ body {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+/* main page image and cover text*/
+
+#cover-text, #cover-text h2 {
+    color:#fff;
+
+}
+
+#page-image-outer {
+    clear:both;
+    width:650px; 
+    float: right;
+    margin-right: 60px;
+}
+
+.main-image {
+    width: 300px;
+}
+
