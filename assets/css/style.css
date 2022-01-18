@@ -55,14 +55,20 @@ body {
 
 #page-image-outer {
     clear:both;
-    width:650px; 
+    width:550px; 
     float: right;
     margin-top: 30px;
-    margin-right: 0px;
+}
+
+#home-page-text {
+    margin-top: 30px;
+    margin-left: 30px;
+    width:650px;
+    float: left;
 }
 
 .main-image {
-    width: 300px;
+    width: 250px;
     margin-right: 20px;
 }
 
