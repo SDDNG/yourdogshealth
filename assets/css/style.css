@@ -23,7 +23,7 @@ body {
     margin-top: 1rem;
     font-size: 100%;
     letter-spacing: 4px;
-
+    text-transform: uppercase;
     float: right;
     background-color: #3a3a3a;
     color:#C0C0C0;
@@ -67,15 +67,13 @@ body {
 }
 
 #main-page-image-section {
-    clear:both;
-    /*width:750px;*/
-    width: 40%; 
+    /*clear:both;*/
+    width: 45%; 
     float: right;
     margin-top: 50px;
 }
 
 .main-image {
-    /* width: 350px; */
     width: 45%;
     float: left;
     margin-right: 5%;
@@ -84,7 +82,6 @@ body {
 #main-page-text {
     margin-top: 30px;
     margin-left: 30px;
-    /* width:950px; */
     width: 50%;
     float: left;
     padding:5px;
@@ -158,33 +155,44 @@ footer {
         
     }
 
-    #main-page-image-section {
-        width: 40%;
-    }
-    
-    .main-image {
-        width: 40%;
-    }
     
     #main-page-text {
-        width: 45%;
-        font-size: 85%;
+        font-size: 90%;
     }
 
 }
 
-/* for larger to medium screens size from 1023px wide and down (tried to sized for down to 800)*/
+/* for screens size from 1023px wide and down (tried to sized for down to 800)*/
 @media screen and (max-width: 1023px) {
-
-    #logo {
-     
-        font-size: 175%;
-      
-    }
+/* */
     
     #menu {
-        font-size: 40%;
+        width: 100%;
+        clear: both;
+        font-size: 70%;
+        
+    }
+
+    #menu li {
+        float: centre; 
+        text-align: center;
         
     }
 
 }
+
+/* for screens size from 800px wide and down (tried to sized for down to 500)*/
+@media screen and (max-width: 800px) {
+  
+    #menu {     
+        font-size: 60%;
+    }
+
+    #menu li {
+        width: 100%;
+    }
+
+
+
+}
+
