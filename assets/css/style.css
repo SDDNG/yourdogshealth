@@ -68,20 +68,24 @@ body {
 
 #main-page-image-section {
     clear:both;
-    width:750px; 
+    /*width:750px;*/
+    width: 40%; 
     float: right;
     margin-top: 50px;
 }
 
 .main-image {
-    width: 350px;
-    margin-right: 20px;
+    /* width: 350px; */
+    width: 45%;
+    float: left;
+    margin-right: 5%;
 }
 
 #main-page-text {
     margin-top: 30px;
     margin-left: 30px;
-    width:950px;
+    /* width:950px; */
+    width: 50%;
     float: left;
     padding:5px;
     line-height: 1.4;
@@ -140,7 +144,7 @@ footer {
     background-color:#C0C0C0;
 }
 
-/* for larger to medium screens size from 1280px wide and down (sized down to 1024)*/
+/* for larger to medium screens size from 1280px wide and down (tried to sized for down to 1024)*/
 @media screen and (max-width: 1280px) {
 
     #logo {
@@ -155,19 +159,32 @@ footer {
     }
 
     #main-page-image-section {
-        /* width:450px; */
         width: 40%;
     }
     
     .main-image {
-        /*width: 175px;*/
         width: 40%;
     }
     
     #main-page-text {
-        /* width:450px; */
         width: 45%;
         font-size: 85%;
+    }
+
+}
+
+/* for larger to medium screens size from 1023px wide and down (tried to sized for down to 800)*/
+@media screen and (max-width: 1023px) {
+
+    #logo {
+     
+        font-size: 175%;
+      
+    }
+    
+    #menu {
+        font-size: 40%;
+        
     }
 
 }
