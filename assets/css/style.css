@@ -82,6 +82,7 @@ body {
 #main-page-text {
     margin-top: 30px;
     margin-left: 30px;
+    margin-bottom: 10%;
     width: 50%;
     float: left;
     padding:5px;
@@ -109,6 +110,7 @@ body {
 }
 
 footer {
+    clear:both;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -157,6 +159,7 @@ footer {
 
     #main-page-text {
         font-size: 90%;
+        
     }
 
 }
@@ -205,7 +208,7 @@ footer {
 
     #main-page-text {
         clear: both;
-        width:100%;
+        width:90%;
         float: center;
         margin-left: 5%;
         margin-right: 5%;
