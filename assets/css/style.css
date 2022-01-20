@@ -14,8 +14,9 @@ body {
 
 #logo {
     float: left;
-    font-size: 280%;
+    font-size: 300%;
     margin-left: 30px;
+    margin-top: 15px;
 }
 
 #menu {
@@ -65,21 +66,31 @@ body {
 
 }
 
-#page-main-image {
+#main-page-image-section {
     clear:both;
-    width:550px; 
+    width:750px; 
     float: right;
-    margin-top: 30px;
+    margin-top: 50px;
+}
+
+.main-image {
+    width: 350px;
+    margin-right: 20px;
 }
 
 #main-page-text {
     margin-top: 30px;
     margin-left: 30px;
-    width:670px;
+    width:950px;
     float: left;
-    column-count: 2;
     padding:5px;
     line-height: 1.4;
+    font-size: 150%;
+}
+
+#main-page-text p {
+    clear:left;
+    column-count: 2;
 }
 
 #main-page-text a {
@@ -94,11 +105,6 @@ body {
 
 #main-page-text a:visited {
     color: #551A8B;
-}
-
-.main-image {
-    width: 250px;
-    margin-right: 20px;
 }
 
 footer {
@@ -134,3 +140,21 @@ footer {
     background-color:#C0C0C0;
 }
 
+/* for larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1250px) {
+
+    #logo {
+     
+        font-size: 220%;
+     
+     
+    }
+    
+
+
+    #menu {
+        font-size: 50%;
+        
+    }
+
+}
