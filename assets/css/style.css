@@ -67,7 +67,7 @@ body {
 }
 
 #main-page-image-section {
-    /*clear:both;*/
+    clear:both;
     width: 45%; 
     float: right;
     margin-top: 50px;
@@ -141,12 +141,12 @@ footer {
     background-color:#C0C0C0;
 }
 
-/* for larger to medium screens size from 1280px wide and down (tried to sized for down to 1024)*/
+/* for larger to medium screens size from 1280px wide and down (tried to size for down to 1024)*/
 @media screen and (max-width: 1280px) {
 
     #logo {
      
-        font-size: 220%;
+        font-size: 230%;
       
     }
     
@@ -155,16 +155,14 @@ footer {
         
     }
 
-    
     #main-page-text {
         font-size: 90%;
     }
 
 }
 
-/* for screens size from 1023px wide and down (tried to sized for down to 800)*/
+/* for screens size from 1023px wide and down (tried to size for down to 800)*/
 @media screen and (max-width: 1023px) {
-/* */
     
     #menu {
         width: 100%;
@@ -175,24 +173,47 @@ footer {
 
     #menu li {
         float: centre; 
-        text-align: center;
         
     }
 
 }
 
-/* for screens size from 800px wide and down (tried to sized for down to 500)*/
+/* for screens size from 800px wide and down (tried to size for down to 500)*/
 @media screen and (max-width: 800px) {
   
     #menu {     
         font-size: 60%;
+        line-height: 35px;
     }
 
-    #menu li {
-        width: 100%;
+   #menu li {
+       width: 100%;
     }
 
+    #main-page-image-section {
+        width: 100%; 
+        float: center;
+        margin-top: 20px;
+    }
 
+    .main-image {
+        width: 30%;
+        float: centre;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    #main-page-text {
+        clear: both;
+        width:100%;
+        float: center;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #main-page-text p {
+        column-count: 1;
+    }
 
 }
 
