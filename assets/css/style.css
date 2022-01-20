@@ -140,21 +140,34 @@ footer {
     background-color:#C0C0C0;
 }
 
-/* for larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1250px) {
+/* for larger to medium screens size from 1280px wide and down (sized down to 1024)*/
+@media screen and (max-width: 1280px) {
 
     #logo {
      
         font-size: 220%;
-     
-     
+      
     }
     
-
-
     #menu {
         font-size: 50%;
         
+    }
+
+    #main-page-image-section {
+        /* width:450px; */
+        width: 40%;
+    }
+    
+    .main-image {
+        /*width: 175px;*/
+        width: 40%;
+    }
+    
+    #main-page-text {
+        /* width:450px; */
+        width: 45%;
+        font-size: 85%;
     }
 
 }
