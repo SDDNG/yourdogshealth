@@ -152,33 +152,34 @@ footer {
 
 /* Form */
 
-.form-section {
-    clear: left;
-    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 90%;
-}
-
 .signup-form {
-    margin:150px 10% 0 0;
+    margin:0 0 0 0;
     color:#fff;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width:90%;
-    position:absolute;
-    left:10%;
+    position:relative;
     padding: 30px;
 }
 
+label {display: block;}
+
 .signup-form > h2 {
     color:#fafafa;
-    margin-bottom:20px;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+label {
+    clear:left;
+}
+
+.form-text {
+    clear: both;
 }
 
 .text-input {
     background: transparent;
     color:#fafafa;
-    width:100%;
+    width:40%;
     height:25px;
     margin:5px 0 20px 0;
     border:1px solid #fafafa;
@@ -186,10 +187,10 @@ footer {
 }
 
 .text-input:hover {
-    border-color:#f16c6b;
+    border-color:#000000;
 }
 
-.join-button {
+.signup-button {
     margin-top:20px;
     border-radius:2px;
     padding:15px 32px 15px 32px;
@@ -200,11 +201,10 @@ footer {
     display:block;
 }
 
-.join-button:hover {
+.signup-button:hover {
     color: #3a3a3a;
     background-color:#C0C0C0;
 }
-
 
 /* for larger to medium screens size from 1280px wide and down (tried to size for down to 1024)*/
 @media screen and (max-width: 1280px) {
