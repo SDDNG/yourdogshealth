@@ -238,11 +238,6 @@ label {
         
     }
 
-    #menu li {
-        float: centre; 
-        
-    }
-
 }
 
 /* for screens size from 800px wide and down (tried to size for down to 500)*/
@@ -259,13 +254,11 @@ label {
 
     #page-image-section {
         width: 100%; 
-        float: center;
         margin-top: 20px;
     }
 
     .main-image {
         width: 30%;
-        float: centre;
         margin-right: 10%;
         margin-left: 10%;
     }
@@ -273,7 +266,6 @@ label {
     #main-page-text {
         clear: both;
         width:90%;
-        float: center;
         margin-left: 5%;
         margin-right: 5%;
     }
