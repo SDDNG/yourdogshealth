@@ -1,4 +1,4 @@
-
+<img width="350" alt="Our Dog's Health Graphic" src="https://user-images.githubusercontent.com/70945839/150977769-9c0045d2-cac8-4b4b-8e2f-0745a5ef48c8.PNG">
 # Your Dog's Health
 This project consists of a static website which gives people an easy overview of the elements required for a dog to be healthy. It considers three main elements - diet, exercise and enrichment (i.e. mental stimulation). There is also a form page where someone could enter their name and email in order to register for a Newsletter and to receive a free ebook on dog's health. There is also an 'About' page which explains the background of the authors.
 
