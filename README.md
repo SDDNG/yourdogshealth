@@ -64,6 +64,8 @@ Once the master branch has been selected, the page will be automatically refresh
 The live link can be found here - https://sddng.github.io/yourdogshealth/
 
 ## Credits
+The Code Institute Template was used as a starting point and the Code Institute Love Running project was then used to get some structure. 
+
 ### Content
 The icons in the navigation menu and the footer were taken from Font Awesome.
 The dog favicon for the web tab is from and https://favicon.io/emoji-favicons/dog/.
