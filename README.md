@@ -38,6 +38,8 @@ This page will allow the user to get signed up to Your Dog's Health to receive a
 ### Responsive Design
 The website was implemented with various media queries which restructured the page depending on the size of device it was being viewed on. When the device size drops below a certain size the structure of the pages changes so that the menu items are stacked vertically rather than horizontally.
 
+<img width="206" alt="VerticalMenu" src="https://user-images.githubusercontent.com/70945839/150997526-7aa6ef50-2d13-42ac-a241-a96351e24a90.PNG">
+
 ### Features Left to Implement
 A food calculator for dogs based on various information such as age, current weight, breed, type of food and activity level would be a good addition to the site.
 
