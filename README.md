@@ -1,19 +1,36 @@
 # Your Dog's Health
-This project consists of a static website which gives people an easy overview of the elements required for a dog to be healthy. It considers three main elements - diet, exercise and enrichment (i.e. mental stimulation). There is also a form page where someone could enter their name and email in order to register for a Newsletter and to receive a free ebook on dog's health. There is also an 'About' page which explains the background of the authors. Images of each page appear below:
+This project consists of a static website which gives people an easy overview of the elements required for a dog to be healthy. It considers three main elements - diet, exercise and enrichment (i.e. mental stimulation). There is also a form page where someone could enter their name and email in order to register for a Newsletter and to receive a free ebook on dog's health. There is also an 'About' page which explains the background of the authors. Images of each page appear below (Note: was not sure how to paste images so looked up and found YouTube video (https://www.youtube.com/watch?v=nvPOUdz5PL4) which advised to create images and drop screen caputures in and then to grab code from there):
 
+
+<img width="450" alt="IndexHtml" src="https://user-images.githubusercontent.com/70945839/150997287-40f9a218-26bc-44cc-aab7-be057e873f8f.PNG">
+
+<img width="450" alt="Exercise" src="https://user-images.githubusercontent.com/70945839/150997155-d2a83cdf-30ba-41cf-8f6b-7864beafb03e.PNG">
+
+<img width="450" alt="Diet" src="https://user-images.githubusercontent.com/70945839/150996962-cee7c5c5-18f9-4ea6-9776-6ea04feff466.PNG">
+
+<img width="450" alt="Enrichment" src="https://user-images.githubusercontent.com/70945839/150997121-e8b61d33-06bd-48c5-b607-f9762889a24e.PNG">
+
+<img width="450" alt="Download" src="https://user-images.githubusercontent.com/70945839/150997036-dbcac2ca-b0dc-41b5-be84-ec1c69be2867.PNG">
+
+<img width="450" alt="About" src="https://user-images.githubusercontent.com/70945839/150996887-29e06e99-eca5-4903-8652-57028111887b.PNG">
 
 ## Existing Features
 ### Navigation Bar
-Featured on all six pages, the full responsive navigation bar includes links to the Logo, Home page, Diet page, Exercise page, Enrichment page, Download page and the About page and is identical in each page to allow for easy navigation. This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
-Nav Bar
+Featured on all six pages, the full responsive navigation bar includes links to the Logo, Home page, Diet page, Exercise page, Enrichment page, Download page and the About page and is identical in each page to allow for easy navigation. This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. The page the user is currently residing on is given a grey background as is the one they hover over.
+
+<img width="509" alt="Navigation" src="https://user-images.githubusercontent.com/70945839/150997350-e6dd5d0d-eaf2-4154-9263-7babaab92a7e.PNG">
+
 
 ### The Page images
 Each page features two appropriate photographs or images e.g. in the case of the diet page, one of the images is a figure showing how the body condition score for a dog is judged, on the enrichment page, photos of dogs socialising are featured. 
 
+<img width="450" alt="Images" src="https://user-images.githubusercontent.com/70945839/150999359-f5db2f94-799a-47e4-8b23-43b0265dba64.PNG">
+
 ### The Footer
 The footer section includes links to the relevant social media sites for Your Dog's Health. The links will open to a new tab to allow easy navigation for the user.
-The footer is valuable to the user as it encourages them to keep connected via social media
-Footer
+The footer is valuable to the user as it encourages them to keep connected via social media.
+
+<img width="960" alt="Footer" src="https://user-images.githubusercontent.com/70945839/150997225-e76514b4-fcc0-4b12-8007-3778e685b2b5.PNG">
 
 ### Download Guide
 This page will allow the user to get signed up to Your Dog's Health to receive a newsletter and also to get a free download of an ebook with some advice on how to maintain their dog's health. The user will be asked to submit their first name, last name and email address.
