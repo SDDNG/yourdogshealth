@@ -35,6 +35,8 @@ The footer is valuable to the user as it encourages them to keep connected via s
 ### Download Guide
 This page will allow the user to get signed up to Your Dog's Health to receive a newsletter and also to get a free download of an ebook with some advice on how to maintain their dog's health. The user will be asked to submit their first name, last name and email address.
 
+<img width="490" alt="Form" src="https://user-images.githubusercontent.com/70945839/151000763-5c378459-b6a0-4450-8213-b1482a122310.PNG">
+
 ### Responsive Design
 The website was implemented with various media queries which restructured the page depending on the size of device it was being viewed on. When the device size drops below a certain size the structure of the pages changes so that the menu items are stacked vertically rather than horizontally.
 
